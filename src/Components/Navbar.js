@@ -64,7 +64,7 @@ const Navbar = () => {
             background: colorBgContainer,
             fontWeight: "bold",
             textAlign: "center",
-            cursor:"pointer"
+            cursor: "pointer",
           }}
           onClick={()=>navigate('/')}
         >
