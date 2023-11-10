@@ -16,6 +16,8 @@ export const ImageTabComponent = ({ data }) => {
     setIsModalOpen(false);
   };
 
+  console.log(data.title);
+
   return (
     <div>
       <Image
@@ -52,7 +54,7 @@ export const ImageTabComponent = ({ data }) => {
               cursor: "pointer",
             }}
           />
-          <p>{data.discription}</p>
+          <p>{data.description}</p>
         </div>
       </Modal>
     </div>

@@ -1,20 +1,13 @@
-import React from 'react'
-import { Tab2Data } from '../../Assets/TabsData'
-import { ImageTabComponent} from '../../Components/ImageTabComponent'
+import React from "react";
+import { VideoTabComponent } from "../../Components/VideoTabComponent";
+import { VideoTabData } from "../../Assets/TabsData";
 
 export const Tab2 = () => {
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        flexDirection: "column",
-      }}
-    >
-      {Tab2Data.map((data, index) => (
-        <ImageTabComponent key={index} data={data} />
+    <div>
+      {VideoTabData.map((data, index) => (
+        <VideoTabComponent key={index} videoLink={data.videoLink} />
       ))}
     </div>
-  )
-}
+  );
+};
