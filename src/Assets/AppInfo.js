@@ -1,4 +1,4 @@
-const AppName = "Test CICD"
+const AppName = "Piano Kids Guide"
 
 
 export {AppName}
