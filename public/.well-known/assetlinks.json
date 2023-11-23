@@ -1,0 +1,8 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.netlify.piano_kids_guide.twa",
+      "sha256_cert_fingerprints": ["32:BF:91:4C:3C:53:F7:44:AC:C6:88:57:D6:78:DE:D0:4C:A5:2A:A2:89:A4:48:8C:9E:D4:FF:EF:71:8E:60:D1"]
+    }
+  }]
