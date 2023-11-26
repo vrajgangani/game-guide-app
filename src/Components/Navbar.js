@@ -72,7 +72,7 @@ const Navbar = () => {
       </Drawer>
       <div
         style={{
-          padding: "10px",
+          padding: "12px",
           background: colorBgContainer,
           fontWeight: "bold",
           textAlign: "center",
