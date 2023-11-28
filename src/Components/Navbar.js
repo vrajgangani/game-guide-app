@@ -3,7 +3,6 @@ import {
   EditOutlined,
   FileTextOutlined,
   ShareAltOutlined,
-  AlignLeftOutlined,
   HomeOutlined,
 } from "@ant-design/icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
