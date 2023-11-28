@@ -1,8 +1,8 @@
 body {
   margin: 0;
   user-select: none;
-  font-family: 'Love Ya Like A Sister', cursive !important;
+  font-family: 'Love Ya Like A Sister', cursive;
 }
-*{
-  font-family: 'Love Ya Like A Sister', cursive !important;
-} 
+/* *{
+  font-family: 'Love Ya Like A Sister', cursive;
+}  */

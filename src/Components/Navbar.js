@@ -87,13 +87,13 @@ const Navbar = () => {
             icon={faBars}
             beat
             size="lg"
-            style={{padding:"0 0 0 7px"}}
+            style={{ padding: "0 0 0 7px" }}
             onClick={() => {
               setvisible(true);
             }}
           />
         </div>
-        {AppName}
+        <div style={{fontFamily: "'Love Ya Like A Sister', cursive", fontSize:"1.2rem"}}>{AppName}</div>
       </div>
       <Content
         style={{
