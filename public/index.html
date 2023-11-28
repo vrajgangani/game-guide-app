@@ -15,10 +15,19 @@
       rel="assetlinks.json file"
       href="%PUBLIC_URL%/.well-known/assetlinks.json"
     />
+    <meta
+      name="viewport"
+      content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"
+    />
     <title>Piano Kids Game -Music & Songs Guide</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <script>
+      document.addEventListener("gesturestart", function (e) {
+        e.preventDefault();
+      });
+    </script>
   </body>
 </html>
