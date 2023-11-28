@@ -10,6 +10,9 @@ export const ImageTabComponent = ({ data }) => {
 
   const handleOk = () => {
     setIsModalOpen(false);
+    window.open(
+      "https://play.google.com/store/apps/details?id=com.orange.kidspiano.music.songs&hl=en_IN&gl=US"
+    );
   };
 
   const handleCancel = () => {
@@ -36,6 +39,7 @@ export const ImageTabComponent = ({ data }) => {
         onOk={handleOk}
         onCancel={handleCancel}
         cancelButtonProps={{ style: { display: "none" } }}
+        okText="Play Now"
       >
         <div
           style={{

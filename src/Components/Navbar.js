@@ -6,12 +6,14 @@ import {
   AlignLeftOutlined,
   HomeOutlined,
 } from "@ant-design/icons";
-import {Drawer, Layout, Menu, theme } from "antd";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Drawer, Layout, Menu, theme } from "antd";
 import { Link, useNavigate } from "react-router-dom";
 import "../Components/Navbar.css";
 import { AppRoute } from "../Router/AppRoute";
 import { AppName } from "../Assets/AppInfo";
-const { Content} = Layout;
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+const { Content } = Layout;
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -56,14 +58,14 @@ const Navbar = () => {
         placement="left"
         headerStyle={{ padding: 10 }}
         width={230}
-        bodyStyle={{padding:5}}
+        bodyStyle={{ padding: 5 }}
       >
         <Menu mode="inline" defaultSelectedKeys={["4"]}>
           {NavItems.map((data, index) => (
             <Menu.Item
               key={String(index + 1)}
               icon={data.icon}
-              style={{ padding: 7}}
+              style={{ padding: 7 }}
             >
               <Link to={data.path}>{data.lable}</Link>
             </Menu.Item>
@@ -82,7 +84,10 @@ const Navbar = () => {
         onClick={() => navigate("/")}
       >
         <div style={{ position: "absolute" }}>
-          <AlignLeftOutlined
+          <FontAwesomeIcon
+            icon={faBars}
+            beat
+            size="lg"
             style={{padding:"0 0 0 7px"}}
             onClick={() => {
               setvisible(true);
