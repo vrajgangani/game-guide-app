@@ -3,6 +3,6 @@
   "target": {
     "namespace": "android_app",
     "package_name": "app.netlify.piano_kids_guide.twa",
-    "sha256_cert_fingerprints": ["EB:B9:BC:9E:71:85:56:7A:C4:29:8F:59:66:4A:82:B1:14:21:A2:47:14:48:DD:46:B5:F7:F8:0F:DB:04:C3:5C"]
+    "sha256_cert_fingerprints": ["4D:B9:56:C2:19:27:42:6E:A6:B2:13:6F:91:1F:D5:F6:8F:00:4B:5C:02:3B:28:D0:F4:57:2B:C0:23:34:EB:02"]
   }
 }]
