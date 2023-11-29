@@ -59,7 +59,7 @@ const Navbar = () => {
         width={230}
         bodyStyle={{ padding: 5 }}
       >
-        <Menu mode="inline" defaultSelectedKeys={["4"]}>
+        <Menu mode="inline" defaultSelectedKeys={["1"]}>
           {NavItems.map((data, index) => (
             <Menu.Item
               key={String(index + 1)}

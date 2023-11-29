@@ -1,3 +1,3 @@
-const AppName = "Piano Kids Guide"
+const AppName = "Baby Piano Kids Music"
 
 export {AppName}
